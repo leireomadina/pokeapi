@@ -2,7 +2,8 @@ import axios from 'axios'
 import fs from 'fs'
 
 const GENERATION_ENDPOINT = 'https://pokeapi.co/api/v2/generation/1'
-const SPECIES_ENDPOINT = 'https://pokeapi.co/api/v2/pokemon-species/' 
+const SPECIES_ENDPOINT = 'https://pokeapi.co/api/v2/pokemon-species/'
+const POKEMON_ENDPOINT = 'https://pokeapi.co/api/v2/pokemon/' 
 
 let pokemonData = {};
 
@@ -36,11 +37,31 @@ async function fetchSpeciesData() {
 		await Promise.all(pokemonData.species.map(async (pokemon) => {
 			const url = SPECIES_ENDPOINT + pokemon.id + '/'
 			const response = await axios.get(url)
-			const { order, name, color } = response.data
+			const { order, color } = response.data
 
 			pokemon.order = order
-			pokemon.speciesName = name
 			pokemon.color = color.name
+		}))
+	} catch(error) {
+		console.error('Error fetching data: ', error)
+	}
+}
+
+async function fetchPokemonTypes() {
+	try {
+		await Promise.all(pokemonData.species.map(async (pokemon) => {
+			const url = POKEMON_ENDPOINT + pokemon.id + '/'
+			const response = await axios.get(url)
+			const { types } = response.data
+
+			const simplifiedTypes = types.map((type) => {
+				return {
+					name: type.type.name,
+					url: type.type.url
+				}
+			})
+
+			pokemon.types = simplifiedTypes
 		}))
 	} catch(error) {
 		console.error('Error fetching data: ', error)
@@ -50,7 +71,11 @@ async function fetchSpeciesData() {
 async function generateJson() {
 	try {
 		await fetchGenerationOnePokemons()
-		await fetchSpeciesData()
+		
+		await Promise.all([
+			fetchSpeciesData(),
+			fetchPokemonTypes()
+		]);
 
 		fs.writeFileSync('pokemons.json', JSON.stringify(pokemonData))
 		console.log('JSON succesfully generated')
