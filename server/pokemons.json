@@ -1,0 +1,974 @@
+{
+	"pokemons": {
+		"species": [
+			{
+				"name": "bulbasaur",
+				"url": "https://pokeapi.co/api/v2/pokemon-species/1/",
+				"id": "1",
+				"image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/1.svg"
+			},
+			{
+				"name": "charmander",
+				"url": "https://pokeapi.co/api/v2/pokemon-species/4/",
+				"id": "4",
+				"image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/4.svg"
+			},
+			{
+				"name": "squirtle",
+				"url": "https://pokeapi.co/api/v2/pokemon-species/7/",
+				"id": "7",
+				"image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/7.svg"
+			},
+			{
+				"name": "caterpie",
+				"url": "https://pokeapi.co/api/v2/pokemon-species/10/",
+				"id": "10",
+				"image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/10.svg"
+			},
+			{
+				"name": "weedle",
+				"url": "https://pokeapi.co/api/v2/pokemon-species/13/",
+				"id": "13",
+				"image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/13.svg"
+			},
+			{
+				"name": "pidgey",
+				"url": "https://pokeapi.co/api/v2/pokemon-species/16/",
+				"id": "16",
+				"image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/16.svg"
+			},
+			{
+				"name": "rattata",
+				"url": "https://pokeapi.co/api/v2/pokemon-species/19/",
+				"id": "19",
+				"image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/19.svg"
+			},
+			{
+				"name": "spearow",
+				"url": "https://pokeapi.co/api/v2/pokemon-species/21/",
+				"id": "21",
+				"image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/21.svg"
+			},
+			{
+				"name": "ekans",
+				"url": "https://pokeapi.co/api/v2/pokemon-species/23/",
+				"id": "23",
+				"image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/23.svg"
+			},
+			{
+				"name": "sandshrew",
+				"url": "https://pokeapi.co/api/v2/pokemon-species/27/",
+				"id": "27",
+				"image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/27.svg"
+			},
+			{
+				"name": "nidoran-f",
+				"url": "https://pokeapi.co/api/v2/pokemon-species/29/",
+				"id": "29",
+				"image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/29.svg"
+			},
+			{
+				"name": "nidoran-m",
+				"url": "https://pokeapi.co/api/v2/pokemon-species/32/",
+				"id": "32",
+				"image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/32.svg"
+			},
+			{
+				"name": "vulpix",
+				"url": "https://pokeapi.co/api/v2/pokemon-species/37/",
+				"id": "37",
+				"image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/37.svg"
+			},
+			{
+				"name": "zubat",
+				"url": "https://pokeapi.co/api/v2/pokemon-species/41/",
+				"id": "41",
+				"image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/41.svg"
+			},
+			{
+				"name": "oddish",
+				"url": "https://pokeapi.co/api/v2/pokemon-species/43/",
+				"id": "43",
+				"image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/43.svg"
+			},
+			{
+				"name": "paras",
+				"url": "https://pokeapi.co/api/v2/pokemon-species/46/",
+				"id": "46",
+				"image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/46.svg"
+			},
+			{
+				"name": "venonat",
+				"url": "https://pokeapi.co/api/v2/pokemon-species/48/",
+				"id": "48",
+				"image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/48.svg"
+			},
+			{
+				"name": "diglett",
+				"url": "https://pokeapi.co/api/v2/pokemon-species/50/",
+				"id": "50",
+				"image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/50.svg"
+			},
+			{
+				"name": "meowth",
+				"url": "https://pokeapi.co/api/v2/pokemon-species/52/",
+				"id": "52",
+				"image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/52.svg"
+			},
+			{
+				"name": "psyduck",
+				"url": "https://pokeapi.co/api/v2/pokemon-species/54/",
+				"id": "54",
+				"image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/54.svg"
+			},
+			{
+				"name": "mankey",
+				"url": "https://pokeapi.co/api/v2/pokemon-species/56/",
+				"id": "56",
+				"image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/56.svg"
+			},
+			{
+				"name": "growlithe",
+				"url": "https://pokeapi.co/api/v2/pokemon-species/58/",
+				"id": "58",
+				"image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/58.svg"
+			},
+			{
+				"name": "poliwag",
+				"url": "https://pokeapi.co/api/v2/pokemon-species/60/",
+				"id": "60",
+				"image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/60.svg"
+			},
+			{
+				"name": "abra",
+				"url": "https://pokeapi.co/api/v2/pokemon-species/63/",
+				"id": "63",
+				"image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/63.svg"
+			},
+			{
+				"name": "machop",
+				"url": "https://pokeapi.co/api/v2/pokemon-species/66/",
+				"id": "66",
+				"image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/66.svg"
+			},
+			{
+				"name": "bellsprout",
+				"url": "https://pokeapi.co/api/v2/pokemon-species/69/",
+				"id": "69",
+				"image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/69.svg"
+			},
+			{
+				"name": "tentacool",
+				"url": "https://pokeapi.co/api/v2/pokemon-species/72/",
+				"id": "72",
+				"image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/72.svg"
+			},
+			{
+				"name": "geodude",
+				"url": "https://pokeapi.co/api/v2/pokemon-species/74/",
+				"id": "74",
+				"image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/74.svg"
+			},
+			{
+				"name": "venusaur",
+				"url": "https://pokeapi.co/api/v2/pokemon-species/3/",
+				"id": "3",
+				"image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/3.svg"
+			},
+			{
+				"name": "charmeleon",
+				"url": "https://pokeapi.co/api/v2/pokemon-species/5/",
+				"id": "5",
+				"image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/5.svg"
+			},
+			{
+				"name": "charizard",
+				"url": "https://pokeapi.co/api/v2/pokemon-species/6/",
+				"id": "6",
+				"image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/6.svg"
+			},
+			{
+				"name": "wartortle",
+				"url": "https://pokeapi.co/api/v2/pokemon-species/8/",
+				"id": "8",
+				"image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/8.svg"
+			},
+			{
+				"name": "blastoise",
+				"url": "https://pokeapi.co/api/v2/pokemon-species/9/",
+				"id": "9",
+				"image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/9.svg"
+			},
+			{
+				"name": "metapod",
+				"url": "https://pokeapi.co/api/v2/pokemon-species/11/",
+				"id": "11",
+				"image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/11.svg"
+			},
+			{
+				"name": "butterfree",
+				"url": "https://pokeapi.co/api/v2/pokemon-species/12/",
+				"id": "12",
+				"image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/12.svg"
+			},
+			{
+				"name": "kakuna",
+				"url": "https://pokeapi.co/api/v2/pokemon-species/14/",
+				"id": "14",
+				"image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/14.svg"
+			},
+			{
+				"name": "beedrill",
+				"url": "https://pokeapi.co/api/v2/pokemon-species/15/",
+				"id": "15",
+				"image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/15.svg"
+			},
+			{
+				"name": "pidgeotto",
+				"url": "https://pokeapi.co/api/v2/pokemon-species/17/",
+				"id": "17",
+				"image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/17.svg"
+			},
+			{
+				"name": "pidgeot",
+				"url": "https://pokeapi.co/api/v2/pokemon-species/18/",
+				"id": "18",
+				"image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/18.svg"
+			},
+			{
+				"name": "raticate",
+				"url": "https://pokeapi.co/api/v2/pokemon-species/20/",
+				"id": "20",
+				"image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/20.svg"
+			},
+			{
+				"name": "fearow",
+				"url": "https://pokeapi.co/api/v2/pokemon-species/22/",
+				"id": "22",
+				"image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/22.svg"
+			},
+			{
+				"name": "arbok",
+				"url": "https://pokeapi.co/api/v2/pokemon-species/24/",
+				"id": "24",
+				"image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/24.svg"
+			},
+			{
+				"name": "pikachu",
+				"url": "https://pokeapi.co/api/v2/pokemon-species/25/",
+				"id": "25",
+				"image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/25.svg"
+			},
+			{
+				"name": "raichu",
+				"url": "https://pokeapi.co/api/v2/pokemon-species/26/",
+				"id": "26",
+				"image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/26.svg"
+			},
+			{
+				"name": "sandslash",
+				"url": "https://pokeapi.co/api/v2/pokemon-species/28/",
+				"id": "28",
+				"image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/28.svg"
+			},
+			{
+				"name": "nidorina",
+				"url": "https://pokeapi.co/api/v2/pokemon-species/30/",
+				"id": "30",
+				"image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/30.svg"
+			},
+			{
+				"name": "nidoqueen",
+				"url": "https://pokeapi.co/api/v2/pokemon-species/31/",
+				"id": "31",
+				"image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/31.svg"
+			},
+			{
+				"name": "nidorino",
+				"url": "https://pokeapi.co/api/v2/pokemon-species/33/",
+				"id": "33",
+				"image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/33.svg"
+			},
+			{
+				"name": "nidoking",
+				"url": "https://pokeapi.co/api/v2/pokemon-species/34/",
+				"id": "34",
+				"image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/34.svg"
+			},
+			{
+				"name": "clefairy",
+				"url": "https://pokeapi.co/api/v2/pokemon-species/35/",
+				"id": "35",
+				"image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/35.svg"
+			},
+			{
+				"name": "clefable",
+				"url": "https://pokeapi.co/api/v2/pokemon-species/36/",
+				"id": "36",
+				"image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/36.svg"
+			},
+			{
+				"name": "ninetales",
+				"url": "https://pokeapi.co/api/v2/pokemon-species/38/",
+				"id": "38",
+				"image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/38.svg"
+			},
+			{
+				"name": "jigglypuff",
+				"url": "https://pokeapi.co/api/v2/pokemon-species/39/",
+				"id": "39",
+				"image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/39.svg"
+			},
+			{
+				"name": "wigglytuff",
+				"url": "https://pokeapi.co/api/v2/pokemon-species/40/",
+				"id": "40",
+				"image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/40.svg"
+			},
+			{
+				"name": "golbat",
+				"url": "https://pokeapi.co/api/v2/pokemon-species/42/",
+				"id": "42",
+				"image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/42.svg"
+			},
+			{
+				"name": "gloom",
+				"url": "https://pokeapi.co/api/v2/pokemon-species/44/",
+				"id": "44",
+				"image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/44.svg"
+			},
+			{
+				"name": "vileplume",
+				"url": "https://pokeapi.co/api/v2/pokemon-species/45/",
+				"id": "45",
+				"image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/45.svg"
+			},
+			{
+				"name": "parasect",
+				"url": "https://pokeapi.co/api/v2/pokemon-species/47/",
+				"id": "47",
+				"image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/47.svg"
+			},
+			{
+				"name": "venomoth",
+				"url": "https://pokeapi.co/api/v2/pokemon-species/49/",
+				"id": "49",
+				"image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/49.svg"
+			},
+			{
+				"name": "dugtrio",
+				"url": "https://pokeapi.co/api/v2/pokemon-species/51/",
+				"id": "51",
+				"image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/51.svg"
+			},
+			{
+				"name": "persian",
+				"url": "https://pokeapi.co/api/v2/pokemon-species/53/",
+				"id": "53",
+				"image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/53.svg"
+			},
+			{
+				"name": "golduck",
+				"url": "https://pokeapi.co/api/v2/pokemon-species/55/",
+				"id": "55",
+				"image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/55.svg"
+			},
+			{
+				"name": "primeape",
+				"url": "https://pokeapi.co/api/v2/pokemon-species/57/",
+				"id": "57",
+				"image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/57.svg"
+			},
+			{
+				"name": "arcanine",
+				"url": "https://pokeapi.co/api/v2/pokemon-species/59/",
+				"id": "59",
+				"image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/59.svg"
+			},
+			{
+				"name": "poliwhirl",
+				"url": "https://pokeapi.co/api/v2/pokemon-species/61/",
+				"id": "61",
+				"image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/61.svg"
+			},
+			{
+				"name": "poliwrath",
+				"url": "https://pokeapi.co/api/v2/pokemon-species/62/",
+				"id": "62",
+				"image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/62.svg"
+			},
+			{
+				"name": "kadabra",
+				"url": "https://pokeapi.co/api/v2/pokemon-species/64/",
+				"id": "64",
+				"image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/64.svg"
+			},
+			{
+				"name": "alakazam",
+				"url": "https://pokeapi.co/api/v2/pokemon-species/65/",
+				"id": "65",
+				"image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/65.svg"
+			},
+			{
+				"name": "machoke",
+				"url": "https://pokeapi.co/api/v2/pokemon-species/67/",
+				"id": "67",
+				"image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/67.svg"
+			},
+			{
+				"name": "machamp",
+				"url": "https://pokeapi.co/api/v2/pokemon-species/68/",
+				"id": "68",
+				"image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/68.svg"
+			},
+			{
+				"name": "weepinbell",
+				"url": "https://pokeapi.co/api/v2/pokemon-species/70/",
+				"id": "70",
+				"image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/70.svg"
+			},
+			{
+				"name": "victreebel",
+				"url": "https://pokeapi.co/api/v2/pokemon-species/71/",
+				"id": "71",
+				"image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/71.svg"
+			},
+			{
+				"name": "tentacruel",
+				"url": "https://pokeapi.co/api/v2/pokemon-species/73/",
+				"id": "73",
+				"image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/73.svg"
+			},
+			{
+				"name": "graveler",
+				"url": "https://pokeapi.co/api/v2/pokemon-species/75/",
+				"id": "75",
+				"image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/75.svg"
+			},
+			{
+				"name": "ponyta",
+				"url": "https://pokeapi.co/api/v2/pokemon-species/77/",
+				"id": "77",
+				"image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/77.svg"
+			},
+			{
+				"name": "slowpoke",
+				"url": "https://pokeapi.co/api/v2/pokemon-species/79/",
+				"id": "79",
+				"image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/79.svg"
+			},
+			{
+				"name": "magnemite",
+				"url": "https://pokeapi.co/api/v2/pokemon-species/81/",
+				"id": "81",
+				"image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/81.svg"
+			},
+			{
+				"name": "farfetchd",
+				"url": "https://pokeapi.co/api/v2/pokemon-species/83/",
+				"id": "83",
+				"image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/83.svg"
+			},
+			{
+				"name": "doduo",
+				"url": "https://pokeapi.co/api/v2/pokemon-species/84/",
+				"id": "84",
+				"image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/84.svg"
+			},
+			{
+				"name": "seel",
+				"url": "https://pokeapi.co/api/v2/pokemon-species/86/",
+				"id": "86",
+				"image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/86.svg"
+			},
+			{
+				"name": "grimer",
+				"url": "https://pokeapi.co/api/v2/pokemon-species/88/",
+				"id": "88",
+				"image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/88.svg"
+			},
+			{
+				"name": "shellder",
+				"url": "https://pokeapi.co/api/v2/pokemon-species/90/",
+				"id": "90",
+				"image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/90.svg"
+			},
+			{
+				"name": "gastly",
+				"url": "https://pokeapi.co/api/v2/pokemon-species/92/",
+				"id": "92",
+				"image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/92.svg"
+			},
+			{
+				"name": "onix",
+				"url": "https://pokeapi.co/api/v2/pokemon-species/95/",
+				"id": "95",
+				"image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/95.svg"
+			},
+			{
+				"name": "drowzee",
+				"url": "https://pokeapi.co/api/v2/pokemon-species/96/",
+				"id": "96",
+				"image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/96.svg"
+			},
+			{
+				"name": "krabby",
+				"url": "https://pokeapi.co/api/v2/pokemon-species/98/",
+				"id": "98",
+				"image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/98.svg"
+			},
+			{
+				"name": "voltorb",
+				"url": "https://pokeapi.co/api/v2/pokemon-species/100/",
+				"id": "100",
+				"image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/100.svg"
+			},
+			{
+				"name": "exeggcute",
+				"url": "https://pokeapi.co/api/v2/pokemon-species/102/",
+				"id": "102",
+				"image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/102.svg"
+			},
+			{
+				"name": "cubone",
+				"url": "https://pokeapi.co/api/v2/pokemon-species/104/",
+				"id": "104",
+				"image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/104.svg"
+			},
+			{
+				"name": "lickitung",
+				"url": "https://pokeapi.co/api/v2/pokemon-species/108/",
+				"id": "108",
+				"image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/108.svg"
+			},
+			{
+				"name": "koffing",
+				"url": "https://pokeapi.co/api/v2/pokemon-species/109/",
+				"id": "109",
+				"image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/109.svg"
+			},
+			{
+				"name": "rhyhorn",
+				"url": "https://pokeapi.co/api/v2/pokemon-species/111/",
+				"id": "111",
+				"image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/111.svg"
+			},
+			{
+				"name": "tangela",
+				"url": "https://pokeapi.co/api/v2/pokemon-species/114/",
+				"id": "114",
+				"image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/114.svg"
+			},
+			{
+				"name": "kangaskhan",
+				"url": "https://pokeapi.co/api/v2/pokemon-species/115/",
+				"id": "115",
+				"image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/115.svg"
+			},
+			{
+				"name": "horsea",
+				"url": "https://pokeapi.co/api/v2/pokemon-species/116/",
+				"id": "116",
+				"image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/116.svg"
+			},
+			{
+				"name": "goldeen",
+				"url": "https://pokeapi.co/api/v2/pokemon-species/118/",
+				"id": "118",
+				"image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/118.svg"
+			},
+			{
+				"name": "staryu",
+				"url": "https://pokeapi.co/api/v2/pokemon-species/120/",
+				"id": "120",
+				"image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/120.svg"
+			},
+			{
+				"name": "scyther",
+				"url": "https://pokeapi.co/api/v2/pokemon-species/123/",
+				"id": "123",
+				"image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/123.svg"
+			},
+			{
+				"name": "pinsir",
+				"url": "https://pokeapi.co/api/v2/pokemon-species/127/",
+				"id": "127",
+				"image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/127.svg"
+			},
+			{
+				"name": "tauros",
+				"url": "https://pokeapi.co/api/v2/pokemon-species/128/",
+				"id": "128",
+				"image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/128.svg"
+			},
+			{
+				"name": "magikarp",
+				"url": "https://pokeapi.co/api/v2/pokemon-species/129/",
+				"id": "129",
+				"image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/129.svg"
+			},
+			{
+				"name": "lapras",
+				"url": "https://pokeapi.co/api/v2/pokemon-species/131/",
+				"id": "131",
+				"image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/131.svg"
+			},
+			{
+				"name": "ditto",
+				"url": "https://pokeapi.co/api/v2/pokemon-species/132/",
+				"id": "132",
+				"image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/132.svg"
+			},
+			{
+				"name": "eevee",
+				"url": "https://pokeapi.co/api/v2/pokemon-species/133/",
+				"id": "133",
+				"image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/133.svg"
+			},
+			{
+				"name": "porygon",
+				"url": "https://pokeapi.co/api/v2/pokemon-species/137/",
+				"id": "137",
+				"image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/137.svg"
+			},
+			{
+				"name": "omanyte",
+				"url": "https://pokeapi.co/api/v2/pokemon-species/138/",
+				"id": "138",
+				"image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/138.svg"
+			},
+			{
+				"name": "kabuto",
+				"url": "https://pokeapi.co/api/v2/pokemon-species/140/",
+				"id": "140",
+				"image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/140.svg"
+			},
+			{
+				"name": "aerodactyl",
+				"url": "https://pokeapi.co/api/v2/pokemon-species/142/",
+				"id": "142",
+				"image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/142.svg"
+			},
+			{
+				"name": "articuno",
+				"url": "https://pokeapi.co/api/v2/pokemon-species/144/",
+				"id": "144",
+				"image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/144.svg"
+			},
+			{
+				"name": "zapdos",
+				"url": "https://pokeapi.co/api/v2/pokemon-species/145/",
+				"id": "145",
+				"image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/145.svg"
+			},
+			{
+				"name": "moltres",
+				"url": "https://pokeapi.co/api/v2/pokemon-species/146/",
+				"id": "146",
+				"image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/146.svg"
+			},
+			{
+				"name": "dratini",
+				"url": "https://pokeapi.co/api/v2/pokemon-species/147/",
+				"id": "147",
+				"image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/147.svg"
+			},
+			{
+				"name": "mewtwo",
+				"url": "https://pokeapi.co/api/v2/pokemon-species/150/",
+				"id": "150",
+				"image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/150.svg"
+			},
+			{
+				"name": "rapidash",
+				"url": "https://pokeapi.co/api/v2/pokemon-species/78/",
+				"id": "78",
+				"image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/78.svg"
+			},
+			{
+				"name": "slowbro",
+				"url": "https://pokeapi.co/api/v2/pokemon-species/80/",
+				"id": "80",
+				"image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/80.svg"
+			},
+			{
+				"name": "magneton",
+				"url": "https://pokeapi.co/api/v2/pokemon-species/82/",
+				"id": "82",
+				"image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/82.svg"
+			},
+			{
+				"name": "dodrio",
+				"url": "https://pokeapi.co/api/v2/pokemon-species/85/",
+				"id": "85",
+				"image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/85.svg"
+			},
+			{
+				"name": "dewgong",
+				"url": "https://pokeapi.co/api/v2/pokemon-species/87/",
+				"id": "87",
+				"image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/87.svg"
+			},
+			{
+				"name": "muk",
+				"url": "https://pokeapi.co/api/v2/pokemon-species/89/",
+				"id": "89",
+				"image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/89.svg"
+			},
+			{
+				"name": "cloyster",
+				"url": "https://pokeapi.co/api/v2/pokemon-species/91/",
+				"id": "91",
+				"image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/91.svg"
+			},
+			{
+				"name": "haunter",
+				"url": "https://pokeapi.co/api/v2/pokemon-species/93/",
+				"id": "93",
+				"image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/93.svg"
+			},
+			{
+				"name": "gengar",
+				"url": "https://pokeapi.co/api/v2/pokemon-species/94/",
+				"id": "94",
+				"image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/94.svg"
+			},
+			{
+				"name": "hypno",
+				"url": "https://pokeapi.co/api/v2/pokemon-species/97/",
+				"id": "97",
+				"image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/97.svg"
+			},
+			{
+				"name": "kingler",
+				"url": "https://pokeapi.co/api/v2/pokemon-species/99/",
+				"id": "99",
+				"image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/99.svg"
+			},
+			{
+				"name": "electrode",
+				"url": "https://pokeapi.co/api/v2/pokemon-species/101/",
+				"id": "101",
+				"image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/101.svg"
+			},
+			{
+				"name": "exeggutor",
+				"url": "https://pokeapi.co/api/v2/pokemon-species/103/",
+				"id": "103",
+				"image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/103.svg"
+			},
+			{
+				"name": "marowak",
+				"url": "https://pokeapi.co/api/v2/pokemon-species/105/",
+				"id": "105",
+				"image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/105.svg"
+			},
+			{
+				"name": "hitmonlee",
+				"url": "https://pokeapi.co/api/v2/pokemon-species/106/",
+				"id": "106",
+				"image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/106.svg"
+			},
+			{
+				"name": "hitmonchan",
+				"url": "https://pokeapi.co/api/v2/pokemon-species/107/",
+				"id": "107",
+				"image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/107.svg"
+			},
+			{
+				"name": "weezing",
+				"url": "https://pokeapi.co/api/v2/pokemon-species/110/",
+				"id": "110",
+				"image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/110.svg"
+			},
+			{
+				"name": "rhydon",
+				"url": "https://pokeapi.co/api/v2/pokemon-species/112/",
+				"id": "112",
+				"image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/112.svg"
+			},
+			{
+				"name": "chansey",
+				"url": "https://pokeapi.co/api/v2/pokemon-species/113/",
+				"id": "113",
+				"image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/113.svg"
+			},
+			{
+				"name": "seadra",
+				"url": "https://pokeapi.co/api/v2/pokemon-species/117/",
+				"id": "117",
+				"image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/117.svg"
+			},
+			{
+				"name": "seaking",
+				"url": "https://pokeapi.co/api/v2/pokemon-species/119/",
+				"id": "119",
+				"image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/119.svg"
+			},
+			{
+				"name": "starmie",
+				"url": "https://pokeapi.co/api/v2/pokemon-species/121/",
+				"id": "121",
+				"image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/121.svg"
+			},
+			{
+				"name": "mr-mime",
+				"url": "https://pokeapi.co/api/v2/pokemon-species/122/",
+				"id": "122",
+				"image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/122.svg"
+			},
+			{
+				"name": "jynx",
+				"url": "https://pokeapi.co/api/v2/pokemon-species/124/",
+				"id": "124",
+				"image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/124.svg"
+			},
+			{
+				"name": "electabuzz",
+				"url": "https://pokeapi.co/api/v2/pokemon-species/125/",
+				"id": "125",
+				"image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/125.svg"
+			},
+			{
+				"name": "magmar",
+				"url": "https://pokeapi.co/api/v2/pokemon-species/126/",
+				"id": "126",
+				"image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/126.svg"
+			},
+			{
+				"name": "gyarados",
+				"url": "https://pokeapi.co/api/v2/pokemon-species/130/",
+				"id": "130",
+				"image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/130.svg"
+			},
+			{
+				"name": "vaporeon",
+				"url": "https://pokeapi.co/api/v2/pokemon-species/134/",
+				"id": "134",
+				"image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/134.svg"
+			},
+			{
+				"name": "jolteon",
+				"url": "https://pokeapi.co/api/v2/pokemon-species/135/",
+				"id": "135",
+				"image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/135.svg"
+			},
+			{
+				"name": "flareon",
+				"url": "https://pokeapi.co/api/v2/pokemon-species/136/",
+				"id": "136",
+				"image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/136.svg"
+			},
+			{
+				"name": "omastar",
+				"url": "https://pokeapi.co/api/v2/pokemon-species/139/",
+				"id": "139",
+				"image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/139.svg"
+			},
+			{
+				"name": "kabutops",
+				"url": "https://pokeapi.co/api/v2/pokemon-species/141/",
+				"id": "141",
+				"image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/141.svg"
+			},
+			{
+				"name": "snorlax",
+				"url": "https://pokeapi.co/api/v2/pokemon-species/143/",
+				"id": "143",
+				"image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/143.svg"
+			},
+			{
+				"name": "dragonair",
+				"url": "https://pokeapi.co/api/v2/pokemon-species/148/",
+				"id": "148",
+				"image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/148.svg"
+			},
+			{
+				"name": "dragonite",
+				"url": "https://pokeapi.co/api/v2/pokemon-species/149/",
+				"id": "149",
+				"image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/149.svg"
+			},
+			{
+				"name": "mew",
+				"url": "https://pokeapi.co/api/v2/pokemon-species/151/",
+				"id": "151",
+				"image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/151.svg"
+			},
+			{
+				"name": "ivysaur",
+				"url": "https://pokeapi.co/api/v2/pokemon-species/2/",
+				"id": "2",
+				"image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/2.svg"
+			},
+			{
+				"name": "golem",
+				"url": "https://pokeapi.co/api/v2/pokemon-species/76/",
+				"id": "76",
+				"image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/76.svg"
+			}
+		],
+		"types": [
+			{
+				"name": "normal",
+				"url": "https://pokeapi.co/api/v2/type/1/"
+			},
+			{
+				"name": "fighting",
+				"url": "https://pokeapi.co/api/v2/type/2/"
+			},
+			{
+				"name": "flying",
+				"url": "https://pokeapi.co/api/v2/type/3/"
+			},
+			{
+				"name": "poison",
+				"url": "https://pokeapi.co/api/v2/type/4/"
+			},
+			{
+				"name": "ground",
+				"url": "https://pokeapi.co/api/v2/type/5/"
+			},
+			{
+				"name": "rock",
+				"url": "https://pokeapi.co/api/v2/type/6/"
+			},
+			{
+				"name": "bug",
+				"url": "https://pokeapi.co/api/v2/type/7/"
+			},
+			{
+				"name": "ghost",
+				"url": "https://pokeapi.co/api/v2/type/8/"
+			},
+			{
+				"name": "fire",
+				"url": "https://pokeapi.co/api/v2/type/10/"
+			},
+			{
+				"name": "water",
+				"url": "https://pokeapi.co/api/v2/type/11/"
+			},
+			{
+				"name": "grass",
+				"url": "https://pokeapi.co/api/v2/type/12/"
+			},
+			{
+				"name": "electric",
+				"url": "https://pokeapi.co/api/v2/type/13/"
+			},
+			{
+				"name": "psychic",
+				"url": "https://pokeapi.co/api/v2/type/14/"
+			},
+			{
+				"name": "ice",
+				"url": "https://pokeapi.co/api/v2/type/15/"
+			},
+			{
+				"name": "dragon",
+				"url": "https://pokeapi.co/api/v2/type/16/"
+			}
+		]
+	}
+}
