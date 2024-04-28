@@ -65,6 +65,8 @@
 			"url": "https://pokeapi.co/api/v2/pokemon-species/13/",
 			"id": "13",
 			"image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/13.svg",
+			"order": 13,
+			"color": "brown",
 			"types": [
 				{
 					"name": "bug",
@@ -74,9 +76,7 @@
 					"name": "poison",
 					"url": "https://pokeapi.co/api/v2/type/4/"
 				}
-			],
-			"order": 13,
-			"color": "brown"
+			]
 		},
 		{
 			"name": "pidgey",
@@ -221,6 +221,8 @@
 			"url": "https://pokeapi.co/api/v2/pokemon-species/43/",
 			"id": "43",
 			"image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/43.svg",
+			"order": 47,
+			"color": "blue",
 			"types": [
 				{
 					"name": "grass",
@@ -230,9 +232,7 @@
 					"name": "poison",
 					"url": "https://pokeapi.co/api/v2/type/4/"
 				}
-			],
-			"order": 47,
-			"color": "blue"
+			]
 		},
 		{
 			"name": "paras",
@@ -257,6 +257,8 @@
 			"url": "https://pokeapi.co/api/v2/pokemon-species/48/",
 			"id": "48",
 			"image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/48.svg",
+			"order": 53,
+			"color": "purple",
 			"types": [
 				{
 					"name": "bug",
@@ -266,23 +268,21 @@
 					"name": "poison",
 					"url": "https://pokeapi.co/api/v2/type/4/"
 				}
-			],
-			"order": 53,
-			"color": "purple"
+			]
 		},
 		{
 			"name": "diglett",
 			"url": "https://pokeapi.co/api/v2/pokemon-species/50/",
 			"id": "50",
 			"image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/50.svg",
+			"order": 55,
+			"color": "brown",
 			"types": [
 				{
 					"name": "ground",
 					"url": "https://pokeapi.co/api/v2/type/5/"
 				}
-			],
-			"order": 55,
-			"color": "brown"
+			]
 		},
 		{
 			"name": "meowth",
@@ -817,6 +817,8 @@
 			"url": "https://pokeapi.co/api/v2/pokemon-species/39/",
 			"id": "39",
 			"image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/39.svg",
+			"order": 42,
+			"color": "pink",
 			"types": [
 				{
 					"name": "normal",
@@ -826,9 +828,7 @@
 					"name": "fairy",
 					"url": "https://pokeapi.co/api/v2/type/18/"
 				}
-			],
-			"order": 42,
-			"color": "pink"
+			]
 		},
 		{
 			"name": "wigglytuff",
@@ -943,14 +943,14 @@
 			"url": "https://pokeapi.co/api/v2/pokemon-species/51/",
 			"id": "51",
 			"image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/51.svg",
+			"order": 56,
+			"color": "brown",
 			"types": [
 				{
 					"name": "ground",
 					"url": "https://pokeapi.co/api/v2/type/5/"
 				}
-			],
-			"order": 56,
-			"color": "brown"
+			]
 		},
 		{
 			"name": "persian",
@@ -971,14 +971,14 @@
 			"url": "https://pokeapi.co/api/v2/pokemon-species/55/",
 			"id": "55",
 			"image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/55.svg",
-			"order": 60,
-			"color": "blue",
 			"types": [
 				{
 					"name": "water",
 					"url": "https://pokeapi.co/api/v2/type/11/"
 				}
-			]
+			],
+			"order": 60,
+			"color": "blue"
 		},
 		{
 			"name": "primeape",
@@ -1119,6 +1119,8 @@
 			"url": "https://pokeapi.co/api/v2/pokemon-species/71/",
 			"id": "71",
 			"image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/71.svg",
+			"order": 77,
+			"color": "green",
 			"types": [
 				{
 					"name": "grass",
@@ -1128,9 +1130,7 @@
 					"name": "poison",
 					"url": "https://pokeapi.co/api/v2/type/4/"
 				}
-			],
-			"order": 77,
-			"color": "green"
+			]
 		},
 		{
 			"name": "ponyta",
@@ -1169,6 +1169,8 @@
 			"url": "https://pokeapi.co/api/v2/pokemon-species/81/",
 			"id": "81",
 			"image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/81.svg",
+			"order": 88,
+			"color": "gray",
 			"types": [
 				{
 					"name": "electric",
@@ -1178,9 +1180,7 @@
 					"name": "steel",
 					"url": "https://pokeapi.co/api/v2/type/9/"
 				}
-			],
-			"order": 88,
-			"color": "gray"
+			]
 		},
 		{
 			"name": "farfetchd",
@@ -1223,14 +1223,14 @@
 			"url": "https://pokeapi.co/api/v2/pokemon-species/86/",
 			"id": "86",
 			"image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/86.svg",
+			"order": 94,
+			"color": "white",
 			"types": [
 				{
 					"name": "water",
 					"url": "https://pokeapi.co/api/v2/type/11/"
 				}
-			],
-			"order": 94,
-			"color": "white"
+			]
 		},
 		{
 			"name": "grimer",
@@ -1523,34 +1523,36 @@
 			"url": "https://pokeapi.co/api/v2/pokemon-species/128/",
 			"id": "128",
 			"image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/128.svg",
+			"order": 152,
+			"color": "brown",
 			"types": [
 				{
 					"name": "normal",
 					"url": "https://pokeapi.co/api/v2/type/1/"
 				}
-			],
-			"order": 152,
-			"color": "brown"
+			]
 		},
 		{
 			"name": "magikarp",
 			"url": "https://pokeapi.co/api/v2/pokemon-species/129/",
 			"id": "129",
 			"image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/129.svg",
-			"order": 153,
-			"color": "red",
 			"types": [
 				{
 					"name": "water",
 					"url": "https://pokeapi.co/api/v2/type/11/"
 				}
-			]
+			],
+			"order": 153,
+			"color": "red"
 		},
 		{
 			"name": "lapras",
 			"url": "https://pokeapi.co/api/v2/pokemon-species/131/",
 			"id": "131",
 			"image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/131.svg",
+			"order": 155,
+			"color": "blue",
 			"types": [
 				{
 					"name": "water",
@@ -1560,9 +1562,7 @@
 					"name": "ice",
 					"url": "https://pokeapi.co/api/v2/type/15/"
 				}
-			],
-			"order": 155,
-			"color": "blue"
+			]
 		},
 		{
 			"name": "ditto",
@@ -1583,28 +1583,28 @@
 			"url": "https://pokeapi.co/api/v2/pokemon-species/133/",
 			"id": "133",
 			"image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/133.svg",
+			"order": 157,
+			"color": "brown",
 			"types": [
 				{
 					"name": "normal",
 					"url": "https://pokeapi.co/api/v2/type/1/"
 				}
-			],
-			"order": 157,
-			"color": "brown"
+			]
 		},
 		{
 			"name": "porygon",
 			"url": "https://pokeapi.co/api/v2/pokemon-species/137/",
 			"id": "137",
 			"image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/137.svg",
+			"order": 166,
+			"color": "pink",
 			"types": [
 				{
 					"name": "normal",
 					"url": "https://pokeapi.co/api/v2/type/1/"
 				}
-			],
-			"order": 166,
-			"color": "pink"
+			]
 		},
 		{
 			"name": "omanyte",
@@ -1747,14 +1747,14 @@
 			"url": "https://pokeapi.co/api/v2/pokemon-species/78/",
 			"id": "78",
 			"image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/78.svg",
+			"order": 84,
+			"color": "yellow",
 			"types": [
 				{
 					"name": "fire",
 					"url": "https://pokeapi.co/api/v2/type/10/"
 				}
-			],
-			"order": 84,
-			"color": "yellow"
+			]
 		},
 		{
 			"name": "haunter",
@@ -1839,8 +1839,6 @@
 			"url": "https://pokeapi.co/api/v2/pokemon-species/103/",
 			"id": "103",
 			"image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/103.svg",
-			"order": 112,
-			"color": "yellow",
 			"types": [
 				{
 					"name": "grass",
@@ -1850,7 +1848,9 @@
 					"name": "psychic",
 					"url": "https://pokeapi.co/api/v2/type/14/"
 				}
-			]
+			],
+			"order": 112,
+			"color": "yellow"
 		},
 		{
 			"name": "marowak",
@@ -1945,14 +1945,14 @@
 			"url": "https://pokeapi.co/api/v2/pokemon-species/117/",
 			"id": "117",
 			"image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/117.svg",
+			"order": 133,
+			"color": "blue",
 			"types": [
 				{
 					"name": "water",
 					"url": "https://pokeapi.co/api/v2/type/11/"
 				}
-			],
-			"order": 133,
-			"color": "blue"
+			]
 		},
 		{
 			"name": "seaking",
@@ -2191,6 +2191,8 @@
 			"url": "https://pokeapi.co/api/v2/pokemon-species/85/",
 			"id": "85",
 			"image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/85.svg",
+			"order": 93,
+			"color": "brown",
 			"types": [
 				{
 					"name": "normal",
@@ -2200,9 +2202,7 @@
 					"name": "flying",
 					"url": "https://pokeapi.co/api/v2/type/3/"
 				}
-			],
-			"order": 93,
-			"color": "brown"
+			]
 		},
 		{
 			"name": "dewgong",
@@ -2291,14 +2291,14 @@
 			"url": "https://pokeapi.co/api/v2/pokemon-species/136/",
 			"id": "136",
 			"image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/136.svg",
+			"order": 160,
+			"color": "red",
 			"types": [
 				{
 					"name": "fire",
 					"url": "https://pokeapi.co/api/v2/type/10/"
 				}
-			],
-			"order": 160,
-			"color": "red"
+			]
 		},
 		{
 			"name": "omastar",

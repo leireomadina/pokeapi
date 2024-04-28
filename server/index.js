@@ -1,5 +1,6 @@
 import axios from 'axios'
 import fs from 'fs'
+import path from 'path'
 
 const GENERATION_ENDPOINT = 'https://pokeapi.co/api/v2/generation/1'
 const SPECIES_ENDPOINT = 'https://pokeapi.co/api/v2/pokemon-species/'
@@ -77,7 +78,9 @@ async function generateJson() {
 			fetchPokemonTypes()
 		]);
 
-		fs.writeFileSync('pokemons.json', JSON.stringify(pokemonData))
+		const __dirname = path.dirname(new URL(import.meta.url).pathname)
+		const jsonPath = path.resolve(__dirname, '..', 'client', 'src', 'data', 'pokemons.json')
+    fs.writeFileSync(jsonPath, JSON.stringify(pokemonData))
 		console.log('JSON succesfully generated')
 	} catch (error) {
     console.error('Error generating JSON:', error)
