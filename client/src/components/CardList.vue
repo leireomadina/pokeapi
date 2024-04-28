@@ -23,7 +23,7 @@ const orderedPokemons = orderPokemonsById()
 <template>
 	<ul class="list">
 		<li v-for="(pokemon, index) in orderedPokemons" :key="index">
-			<CardItem :id="pokemon.id" :title="pokemon.name" :image="pokemon.image" :color="pokemon.color" />
+			<CardItem :id="pokemon.id" :title="pokemon.name" :image="pokemon.image" :color="pokemon.color" :types="pokemon.types"/>
 		</li>
 	</ul>
 </template>
