@@ -21,10 +21,11 @@ function importIconComponent(typeName: string) {
 </script>
 
 <template>
-	<article :id="id" class="card" :style="{ backgroundColor: color }">
+	<article :id="id" class="card" :style="{ boxShadow: '0 0 2px 2px ' + color }">
+		<div class="card__background" :style="{ backgroundColor: color }"></div>
 		<p class="card__number">#{{ id }}</p>
 		<img :src="image" class="card__image">
-		<h3 class="card__title">{{ title }}</h3>
+		<h3 class="card__title" :style="{ color: color }">{{ title }}</h3>
 		<ul class="card__badge-list">
 			<li v-for="(type, index) in types" :key="index" class="card__badge">
 				<component :is="importIconComponent(type.name)" />
@@ -45,7 +46,19 @@ function importIconComponent(typeName: string) {
 	border-radius: 8px;
 	min-height: auto;
 	height: 250px;
-	border: 3px solid black;
+		
+		&:hover img {
+			transform: translateY(-30px) translateX(20px) scale(1.6);
+		}
+
+	&__background {
+		position: absolute;
+		top: 0;
+		height: 250px;
+		width: 100%;
+		opacity: 20%;
+		z-index: -1;
+	}
 
 	&__number {
 		align-self: flex-start;
@@ -53,6 +66,8 @@ function importIconComponent(typeName: string) {
 
 	&__image {
 		height: 60%;
+		transform: scale(1);
+		transition: all 0.3s ease-out;
 	}
 
 	&__title {
@@ -60,6 +75,7 @@ function importIconComponent(typeName: string) {
 		text-transform: uppercase;
 		font-size: 1rem;
 		font-weight: 600;
+		filter: brightness(70%);
 	}
 
 	&__badge-list {
