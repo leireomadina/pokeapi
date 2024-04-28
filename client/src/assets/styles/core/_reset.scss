@@ -1,0 +1,13 @@
+// General reset styles
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+// List reset styles
+ul {
+  list-style-type: none;
+}
