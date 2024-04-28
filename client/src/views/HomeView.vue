@@ -26,5 +26,15 @@ h1 {
 }
 header {
   background-color: #324047;
+
+  img {
+    display: block;
+    height: 100px;
+    margin: 0 auto;
+  }
+}
+
+section header {
+  padding: 1rem;
 }
 </style>
