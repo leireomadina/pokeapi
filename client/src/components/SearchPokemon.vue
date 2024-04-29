@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { defineEmits, ref } from 'vue'
+import { defineEmits } from 'vue'
 import pokemonsJson from '@/data/pokemons.json'
 
 interface Pokemon {

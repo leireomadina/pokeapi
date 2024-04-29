@@ -34,7 +34,7 @@ h1 {
   display: none;
 }
 header {
-  background-color: #324047;
+  background-color: $color-dark-grey;
 
   img {
     display: block;

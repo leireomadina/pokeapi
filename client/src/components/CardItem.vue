@@ -95,7 +95,7 @@ function importIconComponent(typeName: string) {
 		display: flex;
 		justify-content: center;
 		border-radius: 50%;
-		background-color: white;
+		background-color: $color-light;
 		
 		svg {
 			width: 60%;

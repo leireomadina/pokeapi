@@ -7,5 +7,3 @@ import HomeView from './views/HomeView.vue'
     <slot />
   </home-view>
 </template>
-
-<style scoped></style>
