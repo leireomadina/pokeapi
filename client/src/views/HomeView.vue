@@ -1,6 +1,15 @@
 <script setup lang="ts">
+import { ref } from 'vue'
+
 import SearchPokemon from '../components/SearchPokemon.vue'
 import CardList from '../components/CardList.vue'
+
+const filteredPokemonName = ref('')
+
+function handleFilterPokemonByName(name: string) {
+  filteredPokemonName.value = name
+}
+
 </script>
 
 <template>
@@ -12,10 +21,10 @@ import CardList from '../components/CardList.vue'
       <header>
         <img src="@/assets/logo.svg" />
       </header>
-      <SearchPokemon />
+      <SearchPokemon @filterPokemonByName="handleFilterPokemonByName"/>
     </section>
     <section>
-      <CardList />
+      <CardList :filteredPokemonName="filteredPokemonName" />
     </section>
   </main>
 </template>

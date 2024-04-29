@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import { defineProps, watch } from 'vue'
 import CardItem from './CardItem.vue'
 import pokemonsJson from '@/data/pokemons.json'
 
@@ -10,6 +11,10 @@ interface Pokemon {
   types: { name: string; url: string }[];
 }
 
+const props = defineProps({
+  filteredPokemonName: String
+})
+
 const pokemons: Pokemon[] = pokemonsJson.species
 
 function orderPokemonsById() {
@@ -17,12 +22,22 @@ function orderPokemonsById() {
     return parseInt(a.id) - parseInt(b.id)
   })
 }
-const orderedPokemons = orderPokemonsById()
+
+function filterPokemonsByName(pokemons: Pokemon[], name: string) {
+  return pokemons.filter((pokemon) => pokemon.name.toLowerCase().includes(name.toLowerCase()))
+}
+
+watch(() => props.filteredPokemonName, (newValue) => {
+  filteredPokemons = filterPokemonsByName(orderPokemonsById(), newValue || '')
+})
+
+let filteredPokemons = filterPokemonsByName(orderPokemonsById(), props.filteredPokemonName || '')
+
 </script>
 
 <template>
 	<ul class="list">
-		<li v-for="(pokemon, index) in orderedPokemons" :key="index">
+		<li v-for="(pokemon, index) in filteredPokemons" :key="index">
 			<CardItem :id="pokemon.id" :title="pokemon.name" :image="pokemon.image" :color="pokemon.color" :types="pokemon.types"/>
 		</li>
 	</ul>
