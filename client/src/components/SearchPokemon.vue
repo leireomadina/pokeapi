@@ -17,8 +17,6 @@ const pokemonNames = pokemons.map((pokemon) => {
 
 const emit = defineEmits(['filterPokemonByName'])
 
-const selectedPokemonName = ref<string | null>(null)
-
 function handlePokemonNameChange(event: Event) {
 	const selectedName = (event.target as HTMLInputElement).value
 	emit('filterPokemonByName', selectedName)
