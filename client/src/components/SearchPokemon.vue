@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { defineEmits } from 'vue'
+import { defineEmits, ref } from 'vue'
 import pokemonsJson from '@/data/pokemons.json'
 
 interface Pokemon {
@@ -17,10 +17,20 @@ const pokemonNames = pokemons.map((pokemon) => {
 
 const emit = defineEmits(['filterPokemonByName'])
 
+const selectedPokemonName = ref<string | null>(null)
+
 function handlePokemonNameChange(event: Event) {
 	const selectedName = (event.target as HTMLInputElement).value
 	emit('filterPokemonByName', selectedName)
 }
+
+function handleEnterKey(event: KeyboardEvent) {
+  if (event.key === 'Enter') {
+    const selectedName = (event.target as HTMLInputElement).value
+    emit('filterPokemonByName', selectedName)
+  }
+}
+
 </script>
 
 <template>
@@ -39,5 +49,7 @@ function handlePokemonNameChange(event: Event) {
 		rounded
 		item-color="blue"
 		@input="handlePokemonNameChange"
+		@click="handlePokemonNameChange"
+		@keydown.enter="handleEnterKey"
 	></v-autocomplete>
 </template>

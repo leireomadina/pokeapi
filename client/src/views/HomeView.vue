@@ -20,8 +20,8 @@ function handleFilterPokemonByName(name: string) {
     <section>
       <header>
         <img src="@/assets/logo.svg" />
+        <SearchPokemon @filterPokemonByName="handleFilterPokemonByName"/>
       </header>
-      <SearchPokemon @filterPokemonByName="handleFilterPokemonByName"/>
     </section>
     <section>
       <CardList :filteredPokemonName="filteredPokemonName" />
@@ -39,7 +39,7 @@ header {
   img {
     display: block;
     height: 100px;
-    margin: 0 auto;
+    margin: 1rem auto 2rem auto;
   }
 }
 
